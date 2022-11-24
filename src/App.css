@@ -9,4 +9,35 @@ section {
   justify-content: center;
 }
 
+.landing {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  gap: 50px;
+}
 
+.landing h1{
+  padding: 20px;
+  font-size: 50px;
+  color: #2a5a78;
+  font-weight: 700;
+}
+
+.animate {
+  border: 2px solid;
+  color: #f75604;
+  font-size: 20px;
+  padding: 20px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 600px) {
+  .landing {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   padding-left: 10px;
+   font-size: 60px;
+  }
+
+}
