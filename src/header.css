@@ -16,6 +16,12 @@ header {
     font-weight: 800;
 }
 
+.logo-pag {
+    width: 70px;
+    transition: 1s;
+    cursor: pointer;
+}
+    
 .nav-ul, .ul-hamburger {
     list-style: none;
     display: flex;
