@@ -32,7 +32,7 @@ header {
 
 /* for wide screens */
 
-@media screen and (min-width: 600px) {
+/* @media screen and (min-width: 600px) {
     header {
         flex-direction: row;
         justify-content: space-between;
@@ -64,4 +64,4 @@ header {
     .ul-hamburger{
         flex-direction: row;
     }
-}
+} */
