@@ -3,10 +3,27 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 30vw;
+    height: 60vh;
+    width: 17vw;
     padding: 0 10px;
     position: fixed;
+    left: 30px;
+    top: 25%;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.6)
+}
+
+.color {
+    color: rgba(255,233,13,255);
+    color: #ffe90d;
+    color: rgb(126,204,224);
+    color: #7ecce0;
+    color: rgba(184,110,102,255);
+    color: #b86e66;
+    color: rgb(156,236,243);
+    color: #9cecf3;
+    color: #f75604;
+    color: rgba(247,86,4,255);
 }
 
 .logo {
@@ -25,20 +42,32 @@ header {
 .nav-ul, .ul-hamburger {
     list-style: none;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    gap: 8px;
+    gap: 18px;
     font-weight: 400;
+    transition: 2s;
+}
+
+.nav-li:hover{
+    cursor: pointer;
+    border-bottom: 3px solid #f75604;
 }
 
 /* for wide screens */
 
-/* @media screen and (min-width: 600px) {
+ @media screen and (max-width: 600px) {
     header {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        width: 100vw;
+        width: 95vw;
         height: 50px;
+        top: 20px;
+       left: 10px;
+        border-radius: 12px;
+        margin: auto;
     }
 
     .logo {
@@ -54,7 +83,7 @@ header {
 
     nav {
         display: flex;
-        gap: 3px;
+        gap: 2px;
     }
 
     .nav-ul {
@@ -64,4 +93,4 @@ header {
     .ul-hamburger{
         flex-direction: row;
     }
-} */
+} 
