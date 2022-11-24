@@ -56,7 +56,6 @@ header {
 }
 
 /* for wide screens */
-
  @media screen and (max-width: 600px) {
     header {
         flex-direction: row;
@@ -93,6 +92,4 @@ header {
     .ul-hamburger{
         flex-direction: row;
     }
-
-
 } 
