@@ -1,4 +1,190 @@
 .second {
-    height: 75vh;
+    /* height: 100vh; */
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: beige;
+    gap: 5px;
+}
+
+.second h1 {
+    color: #1d5273;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.outer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.outer .card {
+    position: relative;
+    width: 250px;
+    height: 310px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer .card:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .1);
+    z-index: 20;
+    pointer-events: none;
+}
+
+.outer .card:nth-child(1),
+.outer .card:nth-child(1) .overlay {
+    background: linear-gradient(45deg, #3503ad, #f7308c);
+}
+
+.outer .card:nth-child(2),
+.outer .card:nth-child(2) .overlay {
+    background: linear-gradient(45deg, #ccff00, #09afff);
+}
+
+.outer .card:nth-child(3),
+.outer .card:nth-child(3) .overlay {
+    background: linear-gradient(45deg, #e91e63, #ffeb3b);
+}
+
+.outer .card:nth-child(4),
+.outer .card:nth-child(4) .overlay {
+    background: linear-gradient(45deg, #e91e63, #ffeb3b);
+}
+
+.outer .card .cardImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card h4 {
+    margin: 10px;
+    padding: 0;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.overlay:hover{
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    box-shadow: none;
+    border-radius: 0;
+    opacity: 0.9;
+}
+
+.overlay:before {
+    content: 'Soma';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-delay: 0.5s;
+}
+
+.overlay:hover:before {
+    display: none;
+    transition-delay: 0s;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 1;
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0s;
+    color: #fff;
+}
+
+.desc h4 {
+    border-bottom: 3px solid #09afff;
+}
+
+.desc p{
+    font-style: italic;
+}
+.overlay:hover ~ .desc {
+    opacity: 1;
+    visibility: visible;
+    transition: 0.2s;
+    transition-delay: 0.5s;
+}
+
+.desc h4 {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 600px){
+    .second {
+        height: auto;
+    }
+    .outer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .top .outer .card {
+        display: flex;
+        gap: 20px;
+    }
+    .bottom .outer .card{
+        width: 48%;
+        height: 260px;
+    }
 }
