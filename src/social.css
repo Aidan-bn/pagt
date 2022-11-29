@@ -1,0 +1,27 @@
+.social {
+    width: 50px;
+    position: fixed;
+    top: 50%;
+    left: 10px;
+    background-color: #f75604;
+    color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ul-social {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}
+
+.img-media {
+    color: #fff;
+    width: 30px;
+    cursor: pointer;
+}

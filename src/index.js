@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import Second from './second';
 import Kanuni from './Kanuni';
 import Idara from './idara';
+import Social from './Social';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,6 +18,7 @@ root.render(
     <Second />
     <Kanuni />
     <Idara />
+    <Social />
   </React.StrictMode>
 );
 
