@@ -1,0 +1,31 @@
+.kanuni {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px;
+}
+
+.left {
+    width: 40vw;
+    font-size: 40px;
+    text-align: center;
+    color: #1d5273;
+}
+
+.right {
+    width: 60vw;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.right em {
+    font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+    .kanuni{
+        flex-direction: column;
+    }
+    
+}
