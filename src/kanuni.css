@@ -19,6 +19,12 @@
     font-weight: 200;
 }
 
+ol {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
 .right em {
     font-weight: 600;
 }
@@ -28,4 +34,16 @@
         flex-direction: column;
     }
     
+    .left {
+        width: 90vw;
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    .right {
+        width: 90vw;
+        padding: 8px;
+    }
+
+   
 }
