@@ -20,6 +20,7 @@ function History() {
                          wakafanya ubatizo wa kwanza Tanganyika. Walibatiza watu kumi,
                           kanisa wakati huo linaitwa Pentecostal Assemblies of God East 
                           Afrika (PAGEA).</p><br />
+
                     <p>Juhudi na taabu walizopata watumishi wenzetu waliopita wakimtegemea
                          Mungu, matunda yake ndiyo haya yanayoonekana hivi leo. PAG (Tanzania) 
                          tulijitegemea wenyewe mwaka 1967 na kupata cheti cha ithibati 
@@ -40,8 +41,17 @@ function History() {
                 </li>
                 <li className='li-slogan'>
                     <h6>Dira</h6>
+                        <p>kuwa Kanisa linalo mbadilisha kila mtu kwa
+                             Injili ya Kristo kiroho, kimwili na katika 
+                             nafsi yake</p>
                     <h6>Dhamira</h6>
-                    <h6>Kauli Mbiu</h6>
+                        <p>kumwabudu Mungu katika roho na kweli na kuihubiri 
+                            Injili katika nguvu za Roho Mtakatifu kwa 
+                            kila mtu na kila mahali, kuanzisha na kuimarisha 
+                            makanisa ya mahali yatakayokuwa 
+                            chumvi na chachu ya mabadiliko kuleta ufalme 
+                            wa Mungu kwa watu wake na viumbe vyote.</p>
+    
                 </li>
             </ul>
         </div>

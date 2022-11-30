@@ -2,7 +2,7 @@
     list-style: none;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 20px;
 }
 
@@ -19,4 +19,38 @@
 
 .li-history h1{
     color: #1d5273;
+}
+
+.li-slogan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    width: 30vw;
+    border-left: 4px solid #1d5273;
+    margin-left: 4px;
+}
+
+.li-slogan h6 {
+    color: #1d5273;
+    font-size: 30px;
+    animation: lights 5s 750ms linear infinite;
+}
+
+@media screen and (max-width: 600px) {
+    .ul-history {
+        flex-direction: column;
+    }
+
+    .li-history {
+        width: 90vw;
+    }
+
+    .li-slogan {
+        width: 80vw;
+        border-left: 0;
+        border-top: 4px solid #1d5273;
+        margin-top: 8px;
+    }
 }
