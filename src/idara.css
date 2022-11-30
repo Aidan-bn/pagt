@@ -11,7 +11,8 @@
 }
 
 .idara h2 {
-    color: #fff;
+    color: rgba(247, 86, 4, 255);
+    font-weight: 800;
     text-transform: uppercase;
     margin-top: 10px;
 }
@@ -45,7 +46,7 @@
     font-weight: 800;
     text-decoration: underline;
     font-style: normal;
-    color: #1d5273;
+    color: rgba(247, 86, 4, 255);
 }
 
 figure {
@@ -55,7 +56,7 @@ figure {
     justify-content: center;
     color: #1d5273;
     font-size: 12;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 @media screen and (max-width: 600px) {

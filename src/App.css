@@ -10,6 +10,19 @@ section {
   justify-content: center;
 }
 
+.color {
+  color: rgba(255,233,13,255);
+  color: #ffe90d;
+  color: rgb(126,204,224);
+  color: #7ecce0;
+  color: rgba(184,110,102,255);
+  color: #b86e66;
+  color: rgb(156,236,243);
+  color: #9cecf3;
+  color: #f75604;
+  color: rgba(247,86,4,255);
+}
+
 .landing {
   display: flex;
   flex-direction: column;
@@ -20,7 +33,7 @@ section {
 .landing h1{
   padding: 10px;
   font-size: 30px;
-  color: #626b71;
+  color: rgba(247, 86, 4, 255);
   font-weight: 700;
   text-align: center;
 }
