@@ -1,0 +1,22 @@
+.ul-history {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.li-history {
+    width: 65vw;
+    /* background-color: #faf; */
+    padding: 10px;
+    text-align: justify;
+}
+
+.li-history:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.li-history h1{
+    color: #1d5273;
+}
