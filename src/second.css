@@ -175,16 +175,23 @@
     .second {
         height: auto;
     }
+
     .outer{
         display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top: 2px solid #ffffff;
         flex-wrap: wrap;
     }
+
     .top .outer .card {
         display: flex;
         gap: 20px;
     }
+
     .bottom .outer .card{
         width: 48%;
         height: 260px;
     }
+
 }

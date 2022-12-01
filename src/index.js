@@ -9,6 +9,8 @@ import Kanuni from './Kanuni';
 import Idara from './idara';
 import Social from './Social';
 import History from './History';
+import Events from './Events';
+import Majimbo from './Majimbo';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -21,6 +23,8 @@ root.render(
     <Idara />
     <Social />
     <History />
+    <Events />
+    <Majimbo />
   </React.StrictMode>
 );
 
