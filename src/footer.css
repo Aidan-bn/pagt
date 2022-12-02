@@ -1,0 +1,42 @@
+.footer {
+    background-image: url('./asset/bg-dark.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    padding: 10px 20px;
+}
+
+.footer .contact-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.contact-div hr {
+    margin: 2px 0;
+    padding: 2px 0;
+    border: #fa8128;
+    background-color: #fa8128;
+    width: 50px;
+}
+
+.footer .contact-div ul {
+    list-style: none;
+}
+
+.footer .contact-div img{
+    color: #fff;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    width: 60px;
+    border-radius: 25%;
+}
+
+.footer .contact-div li {
+    text-align: center;
+}

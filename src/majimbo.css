@@ -1,4 +1,60 @@
 .jimbo {
-    background-color: #fff;
-    background-image: url('./asset/bible.jpg');
+    background-color: #000;
+    /* background-image: url('./asset/bible.jpg'); */
+    color: #fff;
+    padding: 20px;
 }
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.jimbo-links {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.li-jimbo-links{
+    padding: 2px 5px;
+    /* margin: 20px 10px; */
+}
+
+.li-jimbo-links a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    color: #f75604;
+    padding-left: 1px;
+}
+
+.li-jimbo-links a:hover {
+    border-left: 3px solid #fff;
+}
+
+.ul-jimbo {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.li-jimbo {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.li-jimbo-description {
+    width: 64vw;
+}
+

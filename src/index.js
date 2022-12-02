@@ -11,6 +11,7 @@ import Social from './Social';
 import History from './History';
 import Events from './Events';
 import Majimbo from './Majimbo';
+// import Footer from './Footer';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -25,6 +26,7 @@ root.render(
     <History />
     <Events />
     <Majimbo />
+    {/* <Footer /> */}
   </React.StrictMode>
 );
 
