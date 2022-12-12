@@ -5,6 +5,10 @@
     padding: 20px;
 }
 
+.jimbo-name {
+    padding: 30px 0;
+}
+
 .blue {
     background-color: blue;
 }
@@ -58,3 +62,6 @@
     width: 64vw;
 }
 
+#dodoma {
+    display: none;
+}
