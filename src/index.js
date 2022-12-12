@@ -11,6 +11,7 @@ import Social from './Social';
 import History from './History';
 import Events from './Events';
 import Majimbo from './Majimbo';
+import Galary from './Galary';
 // import Footer from './Footer';
 
 
@@ -27,6 +28,7 @@ root.render(
     <Events />
     <Majimbo />
     {/* <Footer /> */}
+    <Galary />
   </React.StrictMode>
 );
 

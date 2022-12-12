@@ -1,5 +1,4 @@
 import './footer.css';
-import Galary from './Galary';
 import home from './asset/post-office.png';
 import diversity from './asset/diversity.png';
 import email from './asset/email.png';
@@ -44,7 +43,6 @@ const Footer = () => {
                     <li>info@pagt.or.tz</li>
                 </ul>
             </div>
-            <Galary />
         </div>
     );
 }

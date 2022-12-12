@@ -3,7 +3,7 @@ import './galary.css';
 const Galary = () => {
     return(
         <div className='galary'>
-             <h1>Hello</h1>
+             <p>&copy; 2022 designed and maintained by <a href='/'>YG</a></p>
         </div>
     );
 }
