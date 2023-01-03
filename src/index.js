@@ -2,12 +2,33 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Header from './header';
 import reportWebVitals from './reportWebVitals';
+import Second from './second';
+import Kanuni from './Kanuni';
+import Idara from './idara';
+import Social from './Social';
+import History from './History';
+import Events from './Events';
+import Majimbo from './Majimbo';
+import Galary from './Galary';
+// import Footer from './Footer';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Header />
+    <Second />
+    <Kanuni />
+    <Idara />
+    <Social />
+    <History />
+    <Events />
+    <Majimbo />
+    {/* <Footer /> */}
+    <Galary />
   </React.StrictMode>
 );
 

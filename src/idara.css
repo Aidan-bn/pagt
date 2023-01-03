@@ -1,0 +1,77 @@
+.idara {
+    background-image: url('./asset/bible.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.idara h2 {
+    color: rgba(247, 86, 4, 255);
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.ul-idara {
+    width: 90vw;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    list-style: none;
+}
+
+.li-idara {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, .7);
+    border-radius: 10px;
+}
+
+/* .li-idara:hover {
+    box-shadow: rgba(113, 255, 255, 0.97) 0px 25px 20px -20px;
+} */
+
+.p-idara em{
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: underline;
+    font-style: normal;
+    color: rgba(247, 86, 4, 255);
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #1d5273;
+    font-size: 12;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 600px) {
+    .pic-idara {
+        width: 100px;
+    }
+
+    .li-idara {
+        flex-direction: column;
+        gap: 3px;
+    }
+
+    .p-idara {
+
+        font-size: 12px;
+    }
+    
+}

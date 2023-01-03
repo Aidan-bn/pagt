@@ -1,0 +1,39 @@
+.social {
+    width: 50px;
+    position: fixed;
+    top: 50%;
+    left: 10px;
+    background-color: #f75604;
+    color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+
+.ul-social {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}
+
+.img-media {
+    color: #fff;
+    width: 30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px){
+    .social {
+        width: 30px;
+        left: 3px;
+    }
+
+    .img-media {
+        width: 18px;
+    }
+}

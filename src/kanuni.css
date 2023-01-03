@@ -1,0 +1,49 @@
+.kanuni {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px;
+}
+
+.left {
+    width: 40vw;
+    font-size: 40px;
+    text-align: center;
+    color: rgba(247, 86, 4, 255);
+}
+
+.right {
+    width: 60vw;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.right em {
+    font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+    .kanuni{
+        flex-direction: column;
+    }
+    
+    .left {
+        width: 90vw;
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    .right {
+        width: 90vw;
+        padding: 8px;
+    }
+
+   
+}

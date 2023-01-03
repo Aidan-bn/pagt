@@ -1,0 +1,101 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 90vw;
+    position: fixed;
+    top: 10px;
+    left: 4%;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: auto;
+    z-index: 100;
+}
+
+nav{
+    display: flex;
+}
+
+.color {
+    color: rgba(255,233,13,255);
+    color: #ffe90d;
+    color: rgb(126,204,224);
+    color: #7ecce0;
+    color: rgba(184,110,102,255);
+    color: #b86e66;
+    color: rgb(156,236,243);
+    color: #9cecf3;
+    color: #f75604;
+    color: rgba(247,86,4,255);
+}
+
+.logo {
+    display: flex;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.logo-pag {
+    width: 70px;
+    height: 70px;
+    transition: 1s;
+    cursor: pointer;
+}
+    
+.nav-ul, .ul-hamburger {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: column; */
+    gap: 18px;
+    font-weight: 400;
+    transition: 2s;
+}
+
+.nav-li:hover{
+    cursor: pointer;
+    border-bottom: 3px solid #f75604;
+}
+
+/* for wide screens */
+ @media screen and (max-width: 600px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 95vw;
+        height: 50px;
+        top: 20px;
+       left: 10px;
+        border-radius: 12px;
+        margin: auto;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-pag {
+        height: 40px;
+        width: 40px;
+    }
+
+    nav {
+        display: flex;
+        gap: 2px;
+    }
+
+    .nav-ul {
+        flex-direction: row;
+    }
+
+    .ul-hamburger{
+        flex-direction: row;
+    }
+} 
